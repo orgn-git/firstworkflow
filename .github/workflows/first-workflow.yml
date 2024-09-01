@@ -1,0 +1,15 @@
+name: first_workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      -name: test
+       run: echo "test completed"
+      -name: build
+       run: echo "build completed"
+      -name: compile
+       run: echo "compile completed"
+      -name: package
+       run: echo "packaging completed"
+      
